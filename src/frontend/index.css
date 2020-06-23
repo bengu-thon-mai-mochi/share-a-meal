@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+* {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: row;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	width: 60%;
+	padding: 5%;
+	border-right: 3px groove greenyellow;
+}
+
+h1 {
+	padding-bottom: 10%;
+}
+
+header a {
+	box-shadow: 2px 2px 5px lightgreen;
+	margin-top: 50%;
+	color: whitesmoke;
+	padding: 4%;
+	text-decoration: none;
+	border: thin solid grey;
+	border-radius: 3%;
+	background-color: green;
+}
+
+header a:hover {
+	background-color: lightgreen;
+	border: greenyellow;
+	color: gray;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	overflow-y: scroll;
+}
+
+.search-bar {
+	padding: 10;
+	border: 1px solid green;
+	margin-top: 10px;
+	border-radius: 1em;
+}
+
+.meal-info {
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+.meal-description {
+	padding-left: 3%;
+	border-left: 1px dashed green;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+footer p {
+	padding: 10px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 30px;
+	margin-bottom: 10px;
+	border-radius: 1em;
+	box-shadow: 2px 2px 5px gray;
+	background-color: lightgrey;
+}
+
+input {
+	height: 2em;
+	border-radius: 1em;
+}
+
+button {
+	height: 2em;
+	margin-top: 15px;
+}
