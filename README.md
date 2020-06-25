@@ -1,3 +1,3 @@
-<h3 align="center">Share a meal!</h3>
+<h2 align="center">Share a meal!</h2>
 
-# A fullstack app for that connects mysql database to frontend with node.js. 
+### A fullstack app for that connects mysql database to frontend with node.js. 
